@@ -1,0 +1,21 @@
+Logging to ./train_log/SAVETIME-2022-02-08-15-16
+{'lr': 0.003, 'lr_info': 'LinearSchedule; end_lr:0.0003', 'n_fea': 1274, 'clip': 0.2, 'clip_info': 'LinearSchedule; end_clip:0.2', 'nminibatches': 8, 'noptepochs': 8, 'n_steps': 2048, 'total_timesteps': 100000000, 'gamma': 0.925, 'ent_coef': 0.001, 'vf_coef': 0.5, 'policy': 'Resnet101_tf', 'gpu': '1', 'dynEnt': '', 'GameInfo': {'opponent': ['zhiyi', 'random', 'random'], 'midReward': '0.01', 'sqrtReward': True, 'isGang_score': False, 'abort_reward': -1, 'illegaA': -3}, 'model_save_path': './save_model', 'best_model': 0}
+-------------------------------------
+| approxkl           | 0.13068344   |
+| clipfrac           | 0.28564453   |
+| ep_fail_rate       | 0.999        |
+| ep_len_mean        | 1.01         |
+| ep_reward_mean     | -2.96        |
+| ep_win_rate        | 0.00147      |
+| episode_len        | 2034         |
+| explained_variance | -1.11        |
+| fps                | 0            |
+| lr_now             | 0.003        |
+| n_updates          | 1            |
+| policy_entropy     | 3.4911       |
+| policy_loss        | -0.043257043 |
+| serial_timesteps   | 2048         |
+| time_elapsed       | 0.000628     |
+| total_timesteps    | 2048         |
+| value_loss         | 9.41282      |
+-------------------------------------

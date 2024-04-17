@@ -1,0 +1,2 @@
+Logging to ./train_log/SAVETIME-2022-01-13-14-51
+{'lr': 0.003, 'lr_info': 'LinearSchedule; end_lr:0.0003', 'n_fea': 1274, 'clip': 0.2, 'clip_info': 'LinearSchedule; end_clip:0.2', 'nminibatches': 8, 'noptepochs': 8, 'n_steps': 2048, 'total_timesteps': 100000000, 'gamma': 0.925, 'ent_coef': 0.001, 'vf_coef': 0.5, 'policy': 'Resnet101_tf', 'gpu': '1', 'dynEnt': '', 'GameInfo': {'opponent': ['zhiyi', 'random', 'random'], 'midReward': '0.01', 'sqrtReward': True, 'isGang_score': False, 'abort_reward': -1, 'illegaA': -3}, 'model_save_path': './save_model', 'best_model': 0}

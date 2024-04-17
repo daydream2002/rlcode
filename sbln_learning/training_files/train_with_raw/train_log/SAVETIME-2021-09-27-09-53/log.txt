@@ -1,0 +1,2 @@
+Logging to ./train_log/SAVETIME-2021-09-27-09-53
+{'lr': 0.0003, 'lr_info': 'LinearSchedule; end_lr:2.9999999999999997e-05', 'n_fea': 488, 'clip': 0.2, 'clip_info': 'LinearSchedule; end_clip:0.2', 'nminibatches': 8, 'noptepochs': 8, 'n_steps': 2048, 'total_timesteps': 100000000, 'gamma': 0.925, 'ent_coef': 0.01, 'vf_coef': 0.5, 'policy': 'Resnet34_tf', 'gpu': '1', 'GameInfo': {'opponent': ['zhiyi', 'random', 'random'], 'midReward': True, 'sqrtReward': True, 'isGang_score': False, 'abort_reward': -1}, 'model_save_path': './save_model', 'best_model': 0}

@@ -1,0 +1,6 @@
+model_checkpoint_path: "20180918_sys_noking_100.ckpt"
+all_model_checkpoint_paths: "20180918_sys_noking_20.ckpt"
+all_model_checkpoint_paths: "20180918_sys_noking_40.ckpt"
+all_model_checkpoint_paths: "20180918_sys_noking_60.ckpt"
+all_model_checkpoint_paths: "20180918_sys_noking_80.ckpt"
+all_model_checkpoint_paths: "20180918_sys_noking_100.ckpt"

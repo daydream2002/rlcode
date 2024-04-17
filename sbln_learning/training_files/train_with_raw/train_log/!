@@ -1,0 +1,12 @@
+" ============================================================================
+" Netrw Directory Listing                                        (netrw v149)
+"   /home/tonnn/.nas/.xiu/works/remote-shangrao_mj_rl_v4_suphx/sbln_learning/training_files/train_with_raw/train_log/SAVETIME-2022-02-08-15-16
+"   Sorted by      name
+"   Sort sequence: [\/]$,\<core\%(\.\d\+\)\=\>,\.h$,\.c$,\.cpp$,\~\=\*$,*,\.o$,\.obj$,\.info$,\.swp$,\.bak$,\~$
+"   Quick Help: <F1>:help  -:go up dir  D:delete  R:rename  s:sort-by  x:exec
+" ============================================================================
+../
+./
+log.txt
+progress.json
+.swp

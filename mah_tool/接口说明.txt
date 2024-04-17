@@ -1,0 +1,25 @@
+将mah_tool整个文件夹拷贝到工程项目根目录下, 不能mah_tool作为一个工程项目
+说明： 由于编译so文件时采用的是ubuntu16.04,故只能在ubuntu系统中才能运行
+       python版本最好采用3.6.5，  与打包版本一致，防止版本冲突
+       python版本不支持3.7及以上，python版本的支持下限未知
+
+mah_tool
+    --- so_lib  存放so包的文件夹
+    --- fan_cal.so 计算番型
+    --- lib_MJ.so 麻将库
+    --- opp_srmj.so 对手建模
+    --- shangraoMJ_v2.so 基于规则算法，里面包含搜索树
+    --- sr_xt_ph.so 上饶麻将平胡的向听数算法
+    --- suphx_extract
+    --- feature_extract.py  提取特征的入口文件，调用里面的card_preprocess_sr_suphx函数
+    --- search_tree_ren.py  用任航师兄的搜索树的搜索结果
+    --- tool.py  工具文件
+  
+在feature_extract.py 是提取特征的入口文件，调用里面的card_preprocess_sr_suphx函数,需要的参数以及参数格式详见函数的内部说明
+
+在feature_extract.py中最后部分有一个测试用例，可供参考
+
+
+bug修复日志：
+11.25日 修复当remain_cards为零，即流局状态下的bug
+11.25日 修复shangraoMJ_v2中通过吃、碰已达到胡牌，推荐拆单吊时数组越界问题
